@@ -1,6 +1,6 @@
 
-# opus_dart
-Wraps libopus in dart, and additionally provides a dart friendly API for encoding and decoding.
+# The  opus_dart
+A Wraps libopus in dart, and additionally provides a dart friendly API for encoding and decoding.
 
 <a name="toc"></a>
 ##### Table of Contents  
@@ -110,7 +110,7 @@ void main() {
   }
 }
 ```
-This package does not contain any binaries, and even if libopus is open source, no source files are included in this package either,
+Attention-This package does not contain any binaries, and even if libopus is open source, no source files are included in this package either,
 since there is [no native build system for the dart:vm](https://github.com/dart-lang/sdk/issues/36712) at the moment.
 It's up to you to get them and to distribute them with your application.
 Keep in mind that you need a dynamic library for all operating systems and architectures you want to support.
